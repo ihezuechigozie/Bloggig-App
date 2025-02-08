@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://ihezuechigozie.github.io/Bloggig-App",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",

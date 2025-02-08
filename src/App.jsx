@@ -7,16 +7,16 @@ import AdminSignup from "./Components/pages/Signup";
 
 function App() {
   return (
-    // <Router basename="/Bloggig-App">
-      <HashRouter>
+   
+      <Router>
         <Routes>
           <Route path="/" element={<Blog />} />
           <Route path="/admin-signup" element={<AdminSignup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
-      </HashRouter>
-    // </Router>
+      </Router>
+  
   );
 }
 
