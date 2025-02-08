@@ -5,12 +5,9 @@ import Dashboard from "./Components/pages/Dashboard";
 import Blog from "./Components/pages/Blog";
 import AdminSignup from "./Components/pages/Signup";
 
-
-
-
 function App() {
   return (
-    <Router>
+    <Router basename="/Bloggig-App">
       <Routes>
         <Route path="/" element={<Blog />} />
         <Route path="/admin-signup" element={<AdminSignup />} />
